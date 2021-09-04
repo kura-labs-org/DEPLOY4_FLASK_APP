@@ -25,4 +25,4 @@ $ pip freeze > requirements.txt
 Step 3: Take a screenshot of the url-shortner home page and add the screenshot to your
 screenshot file. 
 
-![alt text](Deploy4-15.png)
+![](Deploy4-15.png)
