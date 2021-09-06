@@ -8,7 +8,7 @@ prettyprint = formattedURLforJson.json()[1] #change the index number here.
 
 ###testing function for print
 def testerthing():
-  print("herro!")
+  print("hello!")
 
 
 def appearance(phrase):
