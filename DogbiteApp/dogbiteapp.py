@@ -1,8 +1,8 @@
 from flask import Flask
 import datagrabber
-import sys
 
 app = Flask(__name__)
+
 
 @app.route('/')
 def hello_world():
@@ -10,15 +10,20 @@ def hello_world():
            'Here you can change the top URL to "/doggender for the number of dog bites based on gender or /borough for borough location'
 
 
-@app.route('/kawang')
-def hello_world1():
-    return 'Hello kawang'
+@app.route('/hello/<name>')
+def hello_name(name):
+    return f'Hello {name}'
 
-@app.route('/doggender')
-def genderdata():
-    dataset = datagrabber.appearance("gender")
-    print(dataset, file=sys.stderr)
-    return dataset
+@app.route('/gender/<command>')
+def genderdata(command):
+    dataset = datagrabber.appearance(f"{command}")
+    return datagrabber.appearance(f"{command}")
+
+@app.route('/borough')
+def locationdata():
+    dataset = datagrabber.location("borough")
+    return datagrabber.location("borough")
+
 
 @app.route('/testpage', methods=['GET'])
 def testfunc():

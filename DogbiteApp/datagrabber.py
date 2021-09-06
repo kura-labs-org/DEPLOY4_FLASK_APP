@@ -8,14 +8,14 @@ prettyprint = formattedURLforJson.json()[1] #change the index number here.
 
 ###testing function for print
 def testerthing():
-  print("herro!")
+  print("hey, you have a working page!!")
 
 
 def appearance(phrase):
   Male = 0
   Female = 0
   Unknown = 0
-  x = 10 #change value for desired range
+  x = 1000 #change value for desired range
   for i in range(x):
     prettyprint = formattedURLforJson.json()[i]
     theGender = prettyprint.get(phrase, None)
@@ -49,79 +49,98 @@ def appearance(phrase):
 
 appearance("gender")
 
-# def location(spot):
-#   Queens = 0
-#   Bronx = 0
-#   Brooklyn = 0
-#   Manhattan = 0
-#   Staten_Island = 0
-#   Other = 0
-#   x = 10 #change value for desired range
-#   for i in range(x):
-#     prettyprint = formattedURLforJson.json()[i]
-#     theSpot = prettyprint.get(spot, "Other")
-#     if theSpot == "Queens":
-#       Queens += 1
-#     if theSpot == "Queens" and i == x-1:
-#       Queens += 1
-#       print(Queens)
-#       print(Bronx)
-#       print(Brooklyn)
-#       print(Manhattan)
-#       print(Staten_Island)
-#       print(Other)
-#     if theSpot == "Bronx":
-#       Bronx += 1
-#     if theSpot == "Bronx" and i == x-1:
-#       Bronx += 1
-#       print(Queens)
-#       print(Bronx)
-#       print(Brooklyn)
-#       print(Manhattan)
-#       print(Staten_Island)
-#       print(Other)
-#     if theSpot == "Brooklyn":
-#       Brooklyn += 1
-#     if theSpot == "Brooklyn" and i == x-1:
-#       Brooklyn += 1
-#       print(Queens)
-#       print(Bronx)
-#       print(Brooklyn)
-#       print(Manhattan)
-#       print(Staten_Island)
-#       print(Other)
-#     if theSpot == "Manhattan":
-#       Manhattan += 1
-#     if theSpot == "Manhattan" and i == x-1:
-#       Manhattan += 1
-#       print(Queens)
-#       print(Bronx)
-#       print(Brooklyn)
-#       print(Manhattan)
-#       print(Staten_Island)
-#       print(Other)
-#     if theSpot == "Staten Island":
-#       Staten_Island += 1
-#     if theSpot == "Staten Island" and i == x-1:
-#       Staten_Island += 1
-#       print(Queens)
-#       print(Bronx)
-#       print(Brooklyn)
-#       print(Manhattan)
-#       print(Staten_Island)
-#       print(Other)
-#     if theSpot == "Other" and i == x-1:
-#       Unknown += 1
-#     if theSpot == "Other" and i == x-1:
-#       Unknown += 1
-#       print(Queens)
-#       print(Bronx)
-#       print(Brooklyn)
-#       print(Manhattan)
-#       print(Staten_Island)
-#       print(Other)
+def location(spot):
+  Queens = 0
+  Bronx = 0
+  Brooklyn = 0
+  Manhattan = 0
+  Staten_Island = 0
+  Other = 0
+  x = 1000 #change value for desired range
+  for i in range(x):
+    prettyprint = formattedURLforJson.json()[i]
+    theSpot = prettyprint.get(spot, "Other")
+    if theSpot == "Queens":
+      Queens += 1
+    if theSpot == "Queens" and i == x-1:
+      Queens += 1
+      bstatement1 = (f"In Queens, there were {Queens} dog bites in 2015")
+      bstatement2 = (f"In the Bronx, there were {Bronx} dog bites in 2015")
+      bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
+      bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
+      bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
+      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      print(ballstatements)
+      return ballstatements
+    if theSpot == "Bronx":
+      Bronx += 1
+    if theSpot == "Bronx" and i == x-1:
+      Bronx += 1
+      bstatement1 = (f"In Queens, there were {Queens} dog bites in 2015")
+      bstatement2 = (f"In the Bronx, there were {Bronx} dog bites in 2015")
+      bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
+      bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
+      bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
+      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      print(ballstatements)
+      return ballstatements
+    if theSpot == "Brooklyn":
+      Brooklyn += 1
+    if theSpot == "Brooklyn" and i == x-1:
+      Brooklyn += 1
+      bstatement1 = (f"In Queens, there were {Queens} dog bites in 2015")
+      bstatement2 = (f"In the Bronx, there were {Bronx} dog bites in 2015")
+      bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
+      bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
+      bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
+      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      print(ballstatements)
+      return ballstatements
+    if theSpot == "Manhattan":
+      Manhattan += 1
+    if theSpot == "Manhattan" and i == x-1:
+      Manhattan += 1
+      bstatement1 = (f"In Queens, there were {Queens} dog bites in 2015")
+      bstatement2 = (f"In the Bronx, there were {Bronx} dog bites in 2015")
+      bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
+      bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
+      bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
+      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      print(ballstatements)
+      return ballstatements
+    if theSpot == "Staten Island":
+      Staten_Island += 1
+    if theSpot == "Staten Island" and i == x-1:
+      Staten_Island += 1
+      bstatement1 = (f"In Queens, there were {Queens} dog bites in 2015")
+      bstatement2 = (f"In the Bronx, there were {Bronx} dog bites in 2015")
+      bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
+      bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
+      bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
+      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      print(ballstatements)
+      return ballstatements
+    if theSpot == "Other" and i == x-1:
+      Unknown += 1
+    if theSpot == "Other" and i == x-1:
+      Unknown += 1
+      bstatement1 = (f"In Queens, there were {Queens} dog bites in 2015")
+      bstatement2 = (f"In the Bronx, there were {Bronx} dog bites in 2015")
+      bstatement3 = (f"In Brooklyn, there were {Brooklyn} dog bites in 2015")
+      bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
+      bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
+      bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      print(ballstatements)
+      return ballstatements
+      print(ballstatements)
 
-# location("borough")
+location("borough")
 
 
 # prettyprint.get("breed", None)
