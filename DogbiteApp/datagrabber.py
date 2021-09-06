@@ -15,7 +15,7 @@ def appearance(phrase):
   Male = 0
   Female = 0
   Unknown = 0
-  x = 1000 #change value for desired range
+  x = 10000 #change value for desired range
   for i in range(x):
     prettyprint = formattedURLforJson.json()[i]
     theGender = prettyprint.get(phrase, None)
@@ -56,7 +56,7 @@ def location(spot):
   Manhattan = 0
   Staten_Island = 0
   Other = 0
-  x = 1000 #change value for desired range
+  x = 10000 #change value for desired range
   for i in range(x):
     prettyprint = formattedURLforJson.json()[i]
     theSpot = prettyprint.get(spot, "Other")
@@ -70,7 +70,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Bronx":
@@ -83,7 +83,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Brooklyn":
@@ -96,7 +96,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Manhattan":
@@ -109,7 +109,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Staten Island":
@@ -122,7 +122,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
     if theSpot == "Other" and i == x-1:
@@ -135,7 +135,7 @@ def location(spot):
       bstatement4 = (f"In Manhattan, there were {Manhattan} dog bites in 2015")
       bstatement5 = (f"In Staten Island, there were {Staten_Island} dog bites in 2015")
       bstatement3 = (f"We have no idea where there were {Other} dog bites in 2015")
-      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\m{bstatement5}")
+      ballstatements = (f"{bstatement1}\n{bstatement2}\n{bstatement3}\n{bstatement4}\n{bstatement5}")
       print(ballstatements)
       return ballstatements
       print(ballstatements)
