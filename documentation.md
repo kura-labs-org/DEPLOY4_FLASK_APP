@@ -16,4 +16,8 @@ Since the steps are very similar, I will foucs on the fixes implemented.
 
 Firstly, the name of my central `.py` file was labeled `main.py` instead of `application.py`. By following the tutorial, I had named it as such and only realized I needed to change it by re-reading the deployment instructions.
 
-Secondly, in the `application.py` file, I needed to change the line `app = FLASK(__name__)` to `application = FLASK(__name__)`, and all subsequent `@app.route`s to `@application.route`. This information was relayed to me a via a classmate. Though this doesn't seem to make sense since the URL Shortener app utilized "app" instead of "application" and still worked, this one change resulted in Jenkins building the app successfully. 
+Secondly, in the `application.py` file, I needed to change the line `app = FLASK(__name__)` to `application = FLASK(__name__)`, and all subsequent `@app.route`s to `@application.route`. This information was relayed to me a via a classmate. Though this doesn't seem to make sense since the URL Shortener app utilized "app" instead of "application" and still worked, this one change resulted in Jenkins building the app successfully.
+
+### Building My Own App
+
+Whilst talking to Daniel Adeyanju, he asked if I had any idea what I wanted to do for my own app. I responded in the negative and naturally he proceeded to throw ideas at the proverbial wall. Well, one stuck. Dan had brought up building a Pokedex, an idea that had also been brought up by classmates prior to this assignment. Well, why build what already exists, when I can create from anew? And so I present Koala Arena.
