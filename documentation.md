@@ -20,4 +20,4 @@ Secondly, in the `application.py` file, I needed to change the line `app = FLASK
 
 ### Building My Own App
 
-Whilst talking to Daniel Adeyanju, he asked if I had any idea what I wanted to do for my own app. I responded in the negative and naturally he proceeded to throw ideas at the proverbial wall. Well, one stuck. Dan had brought up building a Pokedex, an idea that had also been brought up by classmates prior to this assignment. Well, why build what already exists, when I can create from anew? And so I present Koala Arena.
+Whilst talking to Daniel Adeyanju, he asked if I had any idea what I wanted to do for my own app. I responded in the negative and naturally he proceeded to throw ideas at the proverbial wall. Well, one stuck. Dan had brought up building a Pokedex, an idea that had also been brought up by classmates prior to this assignment. Well, why build what already exists, when I can create from anew? And so I present ```Koala Arena```.
