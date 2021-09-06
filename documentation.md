@@ -12,7 +12,7 @@ The EB environment starts an EC2 instance to host our app, and a second EC2 with
 
 ### Building the To-Do App
 
-Since the steps are very similar, I will foucs on what failed and how I fixed it.
+Since the steps are very similar, I will foucs on the fixes implemented.
 
 Firstly, the name of my central `.py` file was labeled `main.py` instead of `application.py`. By following the tutorial, I had named it as such and only realized I needed to change it by re-reading the deployment instructions.
 
