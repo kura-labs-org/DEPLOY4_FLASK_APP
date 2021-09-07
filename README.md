@@ -21,3 +21,4 @@ The BMI (Body Mass Index) calculator gives the user some advice whether or not t
 1. https://flask.palletsprojects.com/en/2.0.x/installation/
 2. https://www.youtube.com/watch?v=1k3cNPWVpcY
 3. https://stackabuse.com/building-a-todo-app-with-flask-in-python/
+4. https://github.com/sqlalchemy/sqlalchemy 
