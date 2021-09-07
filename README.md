@@ -25,3 +25,6 @@ $ pip freeze > requirements.txt
 screenshot file. 
 
 ![](/images/Deploy4-15.PNG)
+
+The url-shortner home page
+
