@@ -1,8 +1,8 @@
 # Deployment 4
 
-For this deployment, we have to deploy three different application using Python - Flask - AWS Beanstalk.
+For this deployment, we have to deploy three different applications using Python - Flask - AWS Beanstalk.
 In order to complete the work, I have used some open source resources cited below.
-The detailed documentation is in the pdf file linked to this repository.
+The detailed documentation is in the [PDF](https://github.com/ibrahima1289/DEPLOY4_FLASK_APP/blob/main/Dplymnt4_apps_IDiallo.pdf) file linked to this repository.
 
 ## 1. Url Shortener
 
@@ -10,7 +10,7 @@ This web application displays a short version of url, see this [link](https://gi
 
 ## 2. To Do List app 
 
-For this web application, a todo list is cereated, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/todo-app-flask) for source codes.
+For this web application, a todo list is created, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/todo-app-flask) for source codes.
 
 ## 3. Costum app: BMI Calculator
 
