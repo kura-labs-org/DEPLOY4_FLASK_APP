@@ -1,30 +1,23 @@
 # Deployment 4
 
-## 1. Url Shortener using Flask
+For this deployment, we have to deploy three different application using Python - Flask - AWS Beanstalk.
+In order to complete the work, I have used some open source resources cited below.
+The detailed documentation is in the pdf file linked to this repository.
 
-### Goal for this deployment: 
-The goal for this deployment is to deploy a url-shortener app using AWS Beanstalk and Jenkins. 
+## 1. Url Shortener
 
-**Step 1:** Forked the given [repository](https://github.com/kura-labs-org/DEPLOY04_FLASK_APP) to have a copy of the url-shortner application.
+This web application displays a short version of url, see this [link](https://github.com/ibrahima1289/DEPLOY4_FLASK_APP) for source codes.
 
-> All the source codes are in the repository DEPLOY4_FLASK_APP.
-> 
-> Followed the steps provided from the [pdf document](https://github.com/kura-labs-org/DEPLOY4_FLASK_APP/blob/main/Deployment%204.pdf) given to set up the AWS Beanstalk	and Jenkins. 
+## 2. To Do List app 
 
-**Step 2:** Removed the README.md and Deployment4.pdf instructions from your forked repo before I start the build in Jenkins.
+For this web application, a todo list is cereated, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/todo-app-flask) for source codes.
 
-> Created a  requirements.txt file that is used for specifying what python packages are required to run the project. 
->
-> Below is the command for the setup on VS code.
+## 3. Costum app: BMI Calculator
 
-```
-$ pip freeze > requirements.txt
-```
+The BMI (Body Mass Index) calculator gives the user some advice whether or not to lose/gain weight to stay healthy. Here are the source codes in this [link](https://github.com/ibrahima1289/bmi-calculator-flask)
 
-**Step 3:** Take a screenshot of the url-shortner home page and add the screenshot to your
-screenshot file. 
+### Souces visited
 
-![](/images/Deploy4-15.PNG)
-
-The url-shortner home page
-
+1. https://flask.palletsprojects.com/en/2.0.x/installation/
+2. https://www.youtube.com/watch?v=1k3cNPWVpcY
+3. https://stackabuse.com/building-a-todo-app-with-flask-in-python/
