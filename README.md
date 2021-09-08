@@ -10,7 +10,7 @@ This web application displays a short version of url, see this [link](https://gi
 
 ## 2. To Do List app 
 
-For this web application, a todo list is created, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/todo-app-flask) for source codes.
+For this web application, a todo list is created, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/HW-todo-api) for source codes.
 
 ## 3. Costum app: BMI Calculator
 
