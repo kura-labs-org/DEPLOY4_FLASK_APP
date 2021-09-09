@@ -12,9 +12,9 @@ This web application displays a short version of url, see this [link](https://gi
 
 For this web application, a todo list is created, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/HW-todo-api) for source codes.
 
-## 3. Costum app: BMI Calculator
+## 3. Costum app: Calculator
 
-The BMI (Body Mass Index) calculator gives the user some advice whether or not to lose/gain weight to stay healthy. Here are the source codes in this [link](https://github.com/ibrahima1289/bmi-calculator-flask).
+The BMI (Body Mass Index) calculator gives the user some advice whether or not to lose/gain weight to stay healthy. Here are the source codes in this [link](https://github.com/ibrahima1289/calculator).
 
 ### Souces visited
 
