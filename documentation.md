@@ -31,3 +31,6 @@ if __name__ == "__main__":
     application.run()
 ```
 This is placed in the main executable for the app. When run directly, __name__ will be equal to the string "__main__". However, when this module is instead called in another module __name__ will be equal to the file's name, which should not be "__main__". Thus this will evaluate as false and prevent the app from being executed accidentally.
+
+
+What happens frequently when researching a solution, is following the wrong thread. You ask a question, and you get an answer that seems like the a solution, so you try to understand it further. You get to a point where you can get ready to implement it, but it doesn't work. In the process of searching for the fault, you realize the answer is not a proper solution at all. removeAttribute() vs removeChild() to get rid of the entire div
