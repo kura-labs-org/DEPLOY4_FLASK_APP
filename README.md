@@ -4,7 +4,6 @@
 
 Deploying three different python flask applications to AWS elastic beanstalk through a Jenkins pipeline.
 
-shortener 
 ## Links and Screenshots to Application Repos
 
 - Url shortner application is in this repo
