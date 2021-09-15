@@ -14,6 +14,9 @@ While looking up ideas, I faced some issues.I tried looking up official YouTube 
 
 For my application, once a user enters the URL inside the web page and presses convert, it would do a GET method. This would then call the converter() function inside of application.py and that would get the string the user entered. The application will then call a id_grabber function from the helper.py file, and that will use urlparse to parse the URL and extract the youtube ID from the URL. It goes to many different cases to incase the user enters a different youtube link format. Once it gets the ID it will return the ID in a variable called youtube_id. The youtube_id will then concat with a string to the API and be assigned to a variable called api_converter_link. This is then returned into a function called render_templates() which basically renders a template from the template folder which has an index.html file. This will basically let the HTML page use variables.
 
+- URL Shortener Application: https://github.com/Deodutt/DEPLOY4_FLASK_APP
+- To Do Application: https://github.com/Deodutt/HW-todo-api
+- YouTube Converter Application: https://github.com/Deodutt/YouTube-to-MP3-Converter-API
 
 <h1 align=center>Deployment 4</h1>
 
