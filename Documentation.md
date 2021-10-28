@@ -58,7 +58,8 @@
 ![image](https://user-images.githubusercontent.com/60336145/139186184-5499910a-5164-49b2-8148-4899b338509e.png)
 ![image](https://user-images.githubusercontent.com/60336145/139186224-e456407f-8a5e-4948-aee4-e109f16a5507.png)
 ## In this part we will add our github repository link and create a credentials with a github personal token and our AWS user key pair
-## [Click here to learn how to make an AWS IAM user **Important: (This user needs to have Elastic BeasStalk administrator priviledges)**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+## [Click here to learn how to create a github personal token, this allows jenkins to coonect to our Github repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+## [Click here to learn how to make an AWS IAM user **Important: (This user needs to have Elastic BeasStalk administrator priviledges)** this gives jenkins access to our AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 ![image](https://user-images.githubusercontent.com/60336145/139186844-4f3d19a2-7329-401c-8e62-21d58a2a4011.png)
 ![image](https://user-images.githubusercontent.com/60336145/139186985-2577cdd6-0101-4961-95ba-25f9122a66f8.png)
 ## Remember the Application name and the Environment name of our Elastic BeanStalk enter then here to tell jenkins which environment we want to use 
@@ -67,12 +68,14 @@
 ![image](https://user-images.githubusercontent.com/60336145/139187799-078d437b-192b-46b5-8713-18300fc3a9df.png)
 ## Finally we need a version for our builds you can use "some text ${BUILD_ID}" to assign a progressing number as the version label
 ![image](https://user-images.githubusercontent.com/60336145/139187973-98fe7ae0-2ad9-4598-8c2a-41108629166c.png)
-
-
-
-
+# Important if you are Deploying a Flask appication make sure the name of your main file is "**application.py**". AWS's elastic beanstalk will look for a file with this name to launch your application.
+![image](https://user-images.githubusercontent.com/60336145/139189805-f9eed3bd-e9b1-414b-aa3a-e26a7245300d.png)
+# Trouble along the way
+## I found my deployements failing because the name of main file was not application.py after I changed that it worked smoothly.
+## I also found that when building the version on the applicatoin is "sample application" then it runs health checks while deploying the new version this makes our environment unhealthy and the application cant deploy as a result.  I found that instead of deleting the whole environment and remaking it you can just restart the App's Web server and it will turn healthy after that jenkins will do a health check 30 times make sure you environment is healthy and the versions match then your deployment will be successful. 
 ![dep4-building-app-jenkins](https://user-images.githubusercontent.com/60336145/138937764-12ae389b-c141-47e0-9135-be3b024ebbe3.png)
 ![dep4-fix-2](https://user-images.githubusercontent.com/60336145/138937778-c314ea5d-cf95-4a96-9d81-bd2fc92b3da7.png)
 ![dep4-fix-3](https://user-images.githubusercontent.com/60336145/138937784-bfd7d941-6205-426a-a975-5e264db4152c.png)
-
 ![dep4-success](https://user-images.githubusercontent.com/60336145/138937817-d1c27c8b-1786-4cdb-98e2-eb5f2743d5d9.png)
+![image](https://user-images.githubusercontent.com/60336145/139189704-2018e1fc-b351-4671-a98d-f50a6e1ebd57.png)
+
