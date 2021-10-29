@@ -8,7 +8,8 @@ Welcome to deployment 4, for this deployment you will need to deploy a Flask app
 - You will have to make three project folders on Jenkins for your three different build projects. 
 
 ***Requirements:*** 
-- [x]Fork this repo (https://github.com/kura-labs-org/DEPLOY04_FLASK_APP) to have a copy of the url shortner application.
+
+- [x]Fork this [repo] (https://github.com/kura-labs-org/DEPLOY04_FLASK_APP) to have a copy of the url shortner application.
 - [x]Create a gitignore file or remove this README.md and Deployment4.pdf instructions from your forked repo before you start your build.
 - [x]Take a screenshot of the url shortner home page and add the screenshot to your screenshot file.
 - [x]You should have 3 different repositories for the 3 different applications. 
