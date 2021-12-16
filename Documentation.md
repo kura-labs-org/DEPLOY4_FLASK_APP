@@ -38,32 +38,42 @@ Add plugins required for completion of assignment
 
 ![Screen Shot 2021-12-14 at 10 26 23 AM](https://user-images.githubusercontent.com/84725239/146121140-c11cea28-2e8d-470c-b53b-c74c925d6498.png)
 
+The two plugins were AWSEB Deployment Plugin and Cloudbees AWS Credentials Plugin.
+
 ![Screen Shot 2021-12-14 at 10 27 14 AM](https://user-images.githubusercontent.com/84725239/146121178-2f9df533-8ae2-4cfe-bbb1-4cf63f1b770a.png)
 
 ![Screen Shot 2021-12-14 at 10 27 28 AM](https://user-images.githubusercontent.com/84725239/146121211-881c6d8b-511f-4d5a-bf8e-97555ea6ac3b.png)
 
-After is creating a multibranch
+
+After, adding the plugins I created a multibranch pipeline.
 
 ![Screen Shot 2021-12-14 at 10 28 04 AM](https://user-images.githubusercontent.com/84725239/146123012-1bea216d-21b1-45c5-9fe9-97d3609c4533.png)
 
 
-![Screen Shot 2021-12-14 at 10 35 39 AM](https://user-images.githubusercontent.com/84725239/146123058-b4b2695e-581d-4311-9761-99518b64ea52.png)
+
+The GitHub repository was the repo from which I wanted to utilize for Multibranch pipeline. For my credentials I needed my AWS access and secret key. Found within the 
+
 
 ![Screen Shot 2021-12-14 at 10 38 33 AM](https://user-images.githubusercontent.com/84725239/146123075-58524450-ed25-4b9a-889e-1b1605614391.png)
 
-![Screen Shot 2021-12-14 at 10 39 03 AM](https://user-images.githubusercontent.com/84725239/146123083-be50cbe8-d35d-421f-a1d1-4a5bf42b1c9d.png)
-
+The Access Key was needed here as well as the region that is used.
 
 ![Screen Shot 2021-12-14 at 10 39 17 AM](https://user-images.githubusercontent.com/84725239/146123098-70f9d30b-a2d2-4322-812c-d78f073859b7.png)
 
-
+For the application name and environment portion I used the ones I named in AWS Elastic Beanstalk.
 
 ![Screen Shot 2021-12-14 at 10 40 51 AM](https://user-images.githubusercontent.com/84725239/146123107-4b1da70d-769e-4d25-acc5-e8dbb8138725.png)
 
+Check the health of the environment to see if it everything functional.
+
 ![Screen Shot 2021-12-14 at 11 16 42 AM](https://user-images.githubusercontent.com/84725239/146123134-7d8ae81b-7402-43a1-93d0-3b6f1072b3ae.png)
+
+After I deployed the application using the link located in the slide above in Elastic Beanstalk.
 
 ![Screen Shot 2021-12-14 at 11 15 04 AM](https://user-images.githubusercontent.com/84725239/146123172-ed4260c3-652e-46e6-87ae-2408016fcae0.png)
 
+After the 4th build was completed the application was able to run.
+The following screenshot is the url shortner page 
 
 ![Screen Shot 2021-12-14 at 11 17 55 AM](https://user-images.githubusercontent.com/84725239/146123218-b5105c8a-6309-4fa2-92e4-fc0972d49367.png)
 
