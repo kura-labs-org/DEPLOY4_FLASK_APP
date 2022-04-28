@@ -1,7 +1,7 @@
 pipeline{
     
   agent any
-  }
+  
   stages{
     
     stage('test2'){
@@ -9,3 +9,4 @@ pipeline{
         keyPrefix: 'python-app', rootObject: '.', versionLabelFormat: '${BUILD_ID}'])
     }
   }
+}
