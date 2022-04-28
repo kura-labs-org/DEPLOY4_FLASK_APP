@@ -1,20 +1,24 @@
-# DEPLOY04_FLASK_APP
+# Deployment 4
 
-<h1 align=center>Deployment 4</h1>
+For this deployment, we have to deploy three different applications using Python - Flask - AWS Beanstalk.
+In order to complete the work, I have used some open source resources cited below.
+The detailed documentation is in the [PDF](https://github.com/ibrahima1289/DEPLOY4_FLASK_APP/blob/main/Dplymnt4_apps_IDiallo.pdf) file linked to this repository.
 
-Welcome to deployment 4, for this deployment you will need to deploy a Flask application to AWS Elastic Beanstalk. This repository already has a flask app you can deploy to test your setup configurations. Deploy the url shortner application into your AWSEB. After you've deployed the url shortner application, create your own Flask application. Deploy your created flask application and the To Do List application into your AWSEB.    
+## 1. Url Shortener
 
-- Remember to create a requirements.txt for your Flask application and name your application file ***application.py***
-- You will have to make three project folders on Jenkins for your three different build projects. 
+This web application displays a short version of url, see this [link](https://github.com/ibrahima1289/DEPLOY4_FLASK_APP) for source codes.
 
-***Requirements:*** 
-- [x]Fork this repo (https://github.com/kura-labs-org/DEPLOY04_FLASK_APP) to have a copy of the url shortner application.
-- [x]Create a gitignore file or remove this README.md and Deployment4.pdf instructions from your forked repo before you start your build.
-- [x]Take a screenshot of the url shortner home page and add the screenshot to your screenshot file.
-- [x]You should have 3 different repositories for the 3 different applications. 
-- [x]Create your own Flask application and create a GitHub repository for it.
-- [x]Create your GitHub repository for your to do list application.
-- [x]Screenshot your deployed Flask application home page and your To Do List application. Then add the screenshot to your screenshot file.   
-- [x]Initiate a pull request to the kura-labs-org/DEPLOY4_FLASK_APP with your screenshot file.   
+## 2. To Do List app 
 
-👉Link to deployment instructions: [here](https://github.com/kura-labs-org/DEPLOY4_FLASK_APP/blob/main/Deployment%204.pdf)  
+For this web application, a todo list is created, then, items can be updated, and/or deleted from the list. See [link](https://github.com/ibrahima1289/HW-todo-api) for source codes.
+
+## 3. Costum app: Calculator
+
+The BMI (Body Mass Index) calculator gives the user some advice whether or not to lose/gain weight to stay healthy. Here are the source codes in this [link](https://github.com/ibrahima1289/calculator).
+
+### Souces visited
+
+1. https://flask.palletsprojects.com/en/2.0.x/installation/
+2. https://www.youtube.com/watch?v=1k3cNPWVpcY
+3. https://stackabuse.com/building-a-todo-app-with-flask-in-python/
+4. https://github.com/sqlalchemy/sqlalchemy 
