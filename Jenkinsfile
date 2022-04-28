@@ -9,4 +9,3 @@ pipeline{
         keyPrefix: 'python-app', rootObject: '.', versionLabelFormat: '${BUILD_ID}'])
     }
   }
-}
