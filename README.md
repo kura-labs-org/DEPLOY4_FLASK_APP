@@ -18,3 +18,7 @@ Welcome to deployment 4, for this deployment you will need to deploy a Flask app
 - [x]Initiate a pull request to the kura-labs-org/DEPLOY4_FLASK_APP with your screenshot file.   
 
 👉Link to deployment instructions: [here](https://github.com/kura-labs-org/DEPLOY4_FLASK_APP/blob/main/Deployment%204.pdf)  
+
+```
+ls cd
+```
