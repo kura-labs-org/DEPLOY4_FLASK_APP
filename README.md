@@ -22,3 +22,4 @@ Welcome to deployment 4, for this deployment you will need to deploy a Flask app
 ```
 ls cd
 ```
+(https://github.com/kura-labs-org/DEPLOY4_FLASK_APP/blob/main/Deployment%204.pdf)
